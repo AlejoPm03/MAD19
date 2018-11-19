@@ -31,7 +31,7 @@ U 1 1 5BE6D03E
 P 4600 2900
 F 0 "U2" H 4600 3267 50  0000 C CNN
 F 1 "LM358" H 4600 3176 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4600 2900 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4600 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4600 2900 50  0001 C CNN
 	1    4600 2900
 	1    0    0    1   
@@ -53,7 +53,7 @@ U 1 1 5BE6D4D1
 P 2000 1000
 F 0 "CI1" H 2000 1242 50  0000 C CNN
 F 1 "L7805" H 2000 1151 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown_SMD" H 2025 850 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2025 850 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2000 950 50  0001 C CNN
 	1    2000 1000
 	1    0    0    -1  
@@ -302,7 +302,7 @@ U 2 1 5BE71F7D
 P 4600 4350
 F 0 "U2" H 4700 4700 50  0000 C CNN
 F 1 "LM358" H 4700 4600 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4600 4350 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4600 4350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4600 4350 50  0001 C CNN
 	2    4600 4350
 	1    0    0    -1  
@@ -692,7 +692,7 @@ U 1 1 5BEBB24F
 P 8200 2700
 F 0 "C12" H 8108 2746 50  0000 R CNN
 F 1 "470u" H 8108 2655 50  0000 R CNN
-F 2 "" H 8200 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x6.9" H 8200 2700 50  0001 C CNN
 F 3 "~" H 8200 2700 50  0001 C CNN
 	1    8200 2700
 	-1   0    0    -1  
@@ -703,7 +703,7 @@ U 1 1 5BEBB348
 P 8500 2700
 F 0 "C13" H 8408 2746 50  0000 R CNN
 F 1 "1u" H 8408 2655 50  0000 R CNN
-F 2 "" H 8500 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8500 2700 50  0001 C CNN
 F 3 "~" H 8500 2700 50  0001 C CNN
 	1    8500 2700
 	-1   0    0    -1  
@@ -714,7 +714,7 @@ U 1 1 5BEBB3B0
 P 8800 2700
 F 0 "C14" H 8708 2746 50  0000 R CNN
 F 1 "1u" H 8708 2655 50  0000 R CNN
-F 2 "" H 8800 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 2700 50  0001 C CNN
 F 3 "~" H 8800 2700 50  0001 C CNN
 	1    8800 2700
 	-1   0    0    -1  
@@ -795,7 +795,7 @@ U 1 1 5BEC755B
 P 7400 2700
 F 0 "C11" H 7309 2654 50  0000 R CNN
 F 1 "1u" H 7309 2745 50  0000 R CNN
-F 2 "" H 7400 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 2700 50  0001 C CNN
 F 3 "~" H 7400 2700 50  0001 C CNN
 	1    7400 2700
 	1    0    0    1   
@@ -837,7 +837,7 @@ U 3 1 5BED4FF7
 P 4600 4350
 F 0 "U2" H 4558 4396 50  0001 L CNN
 F 1 "LM358" H 4558 4305 50  0001 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4600 4350 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4600 4350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4600 4350 50  0001 C CNN
 	3    4600 4350
 	1    0    0    -1  
