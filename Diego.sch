@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Diego-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -42,7 +41,7 @@ U 1 1 5BE6D3EE
 P 2750 1000
 F 0 "NT2" H 2750 950 50  0000 C CNN
 F 1 "Net-Tie_2" H 2750 1087 50  0001 C CNN
-F 2 "NetTie:NetTie-2_THT_Pad1.0mm" H 2750 1000 50  0001 C CNN
+F 2 "NetTie:NetTie-3_SMD_Pad0.5mm" H 2750 1000 50  0001 C CNN
 F 3 "~" H 2750 1000 50  0001 C CNN
 	1    2750 1000
 	1    0    0    -1  
@@ -94,7 +93,7 @@ U 1 1 5BE6D793
 P 1775 1650
 F 0 "NT1" H 1775 1600 50  0000 C CNN
 F 1 "GND" H 1775 1737 50  0001 C CNN
-F 2 "NetTie:NetTie-2_THT_Pad1.0mm" H 1775 1650 50  0001 C CNN
+F 2 "NetTie:NetTie-3_SMD_Pad0.5mm" H 1775 1650 50  0001 C CNN
 F 3 "~" H 1775 1650 50  0001 C CNN
 	1    1775 1650
 	1    0    0    -1  
@@ -228,7 +227,7 @@ F 1 "R_POT_Dual" V 2450 4000 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal" H 2250 3525 50  0001 C CNN
 F 3 "~" H 2250 3525 50  0001 C CNN
 	1    2000 3600
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:C_Small C3
@@ -480,10 +479,6 @@ F 3 "" H 2050 3550 50  0001 C CNN
 	1    2050 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 3550 1900 3550
-Wire Wire Line
-	1900 3550 1900 3500
 $Comp
 L power:GNDS #PWR0112
 U 1 1 5BE7F295
@@ -495,10 +490,6 @@ F 3 "" H 1900 4050 50  0001 C CNN
 	1    1900 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 4050 1900 4000
-Wire Wire Line
-	1900 3150 1900 3200
 $Comp
 L Device:C_Small C8
 U 1 1 5BE81227
@@ -898,15 +889,7 @@ F 3 "~" H 900 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 3650 1900 3650
-Wire Wire Line
 	1900 3650 1900 3700
-Wire Wire Line
-	1100 3550 1750 3550
-Wire Wire Line
-	1750 3550 1750 3150
-Wire Wire Line
-	1750 3150 1900 3150
 $Comp
 L power:GNDS #PWR0123
 U 1 1 5BEF1F31
@@ -976,7 +959,7 @@ U 1 1 5BF56405
 P 2900 1500
 F 0 "D1" V 2938 1383 50  0000 R CNN
 F 1 "LED" V 2847 1383 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 1500 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2900 1500 50  0001 C CNN
 F 3 "~" H 2900 1500 50  0001 C CNN
 	1    2900 1500
 	0    -1   -1   0   
@@ -1004,7 +987,7 @@ U 1 1 5BF771E4
 P 7100 4725
 F 0 "D2" V 7138 4608 50  0000 R CNN
 F 1 "LED" V 7047 4608 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 4725 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7100 4725 50  0001 C CNN
 F 3 "~" H 7100 4725 50  0001 C CNN
 	1    7100 4725
 	0    -1   -1   0   
@@ -1054,4 +1037,20 @@ Wire Wire Line
 	6550 4250 6550 4300
 Wire Wire Line
 	6550 4300 6600 4300
+Wire Wire Line
+	1900 4050 1900 4000
+Wire Wire Line
+	1900 3150 1900 3200
+Wire Wire Line
+	1750 3150 1900 3150
+Wire Wire Line
+	2050 3550 1900 3550
+Wire Wire Line
+	1900 3550 1900 3500
+Wire Wire Line
+	1100 3550 1750 3550
+Wire Wire Line
+	1750 3550 1750 3150
+Wire Wire Line
+	1100 3650 1900 3650
 $EndSCHEMATC
