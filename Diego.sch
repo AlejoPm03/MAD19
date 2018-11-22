@@ -860,7 +860,7 @@ U 1 1 5BEE7979
 P 900 3650
 F 0 "J1" H 904 3992 50  0000 C CNN
 F 1 "AudioJack3_Ground" H 904 3901 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles" H 900 3650 50  0001 C CNN
+F 2 "Bibliotecas:Jack_3.5mm" H 900 3650 50  0001 C CNN
 F 3 "~" H 900 3650 50  0001 C CNN
 	1    900  3650
 	1    0    0    -1  
