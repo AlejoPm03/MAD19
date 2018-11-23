@@ -1066,4 +1066,48 @@ Wire Wire Line
 	1675 4050 1675 3650
 Wire Wire Line
 	1675 3650 1100 3650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5BF7A267
+P 2850 6500
+F 0 "H1" H 2950 6546 50  0000 L CNN
+F 1 "MountingHole" H 2950 6455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 2850 6500 50  0001 C CNN
+F 3 "~" H 2850 6500 50  0001 C CNN
+	1    2850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5BF7A5A9
+P 2850 6725
+F 0 "H2" H 2950 6771 50  0000 L CNN
+F 1 "MountingHole" H 2950 6680 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 2850 6725 50  0001 C CNN
+F 3 "~" H 2850 6725 50  0001 C CNN
+	1    2850 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5BF7A63F
+P 2850 6975
+F 0 "H3" H 2950 7021 50  0000 L CNN
+F 1 "MountingHole" H 2950 6930 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 2850 6975 50  0001 C CNN
+F 3 "~" H 2850 6975 50  0001 C CNN
+	1    2850 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5BF7A6CD
+P 2850 7225
+F 0 "H4" H 2950 7271 50  0000 L CNN
+F 1 "MountingHole" H 2950 7180 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 2850 7225 50  0001 C CNN
+F 3 "~" H 2850 7225 50  0001 C CNN
+	1    2850 7225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
