@@ -880,17 +880,6 @@ Wire Wire Line
 	1100 3750 1150 3750
 Wire Wire Line
 	1150 3750 1150 4050
-$Comp
-L Connector:Barrel_Jack J2
-U 1 1 5BEFEF01
-P 800 1250
-F 0 "J2" H 570 1208 50  0000 R CNN
-F 1 "Barrel_Jack" H 570 1299 50  0000 R CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 850 1210 50  0001 C CNN
-F 3 "~" H 850 1210 50  0001 C CNN
-	1    800  1250
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	1100 1350 1200 1350
 Wire Wire Line
@@ -1108,6 +1097,18 @@ F 1 "MountingHole" H 2950 7180 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 2850 7225 50  0001 C CNN
 F 3 "~" H 2850 7225 50  0001 C CNN
 	1    2850 7225
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7050 3950
+$Comp
+L Connector:Barrel_Jack_Switch J2
+U 1 1 5BF8E02D
+P 800 1250
+F 0 "J2" H 855 1567 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 855 1476 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 850 1210 50  0001 C CNN
+F 3 "~" H 850 1210 50  0001 C CNN
+	1    800  1250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
