@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name pam8403)(type Legacy)(uri ${KIPRJMOD}/Bibliotecas/pam8403.lib)(options "")(descr ""))
+  (lib (name audiojack3_ground_switch_Para_a_placa)(type Legacy)(uri "C:/Users/Aluno/Documents/sai/Diego/GitDiego/MAD19/Bibliotecas/audiojack3_ground_switch_Para a placa.lib")(options "")(descr ""))
 )

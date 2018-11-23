@@ -855,31 +855,18 @@ $EndComp
 Wire Wire Line
 	4200 4050 4200 4000
 $Comp
-L Connector:AudioJack3_Ground J1
-U 1 1 5BEE7979
-P 900 3650
-F 0 "J1" H 904 3992 50  0000 C CNN
-F 1 "AudioJack3_Ground" H 904 3901 50  0000 C CNN
-F 2 "Bibliotecas:Jack_3.5mm" H 900 3650 50  0001 C CNN
-F 3 "~" H 900 3650 50  0001 C CNN
-	1    900  3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDS #PWR0123
 U 1 1 5BEF1F31
-P 1150 4050
-F 0 "#PWR0123" H 1150 3800 50  0001 C CNN
-F 1 "GNDS" H 1155 3877 50  0000 C CNN
-F 2 "" H 1150 4050 50  0001 C CNN
-F 3 "" H 1150 4050 50  0001 C CNN
-	1    1150 4050
+P 1000 4425
+F 0 "#PWR0123" H 1000 4175 50  0001 C CNN
+F 1 "GNDS" H 1005 4252 50  0000 C CNN
+F 2 "" H 1000 4425 50  0001 C CNN
+F 3 "" H 1000 4425 50  0001 C CNN
+	1    1000 4425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 3750 1150 3750
-Wire Wire Line
-	1150 3750 1150 4050
+	1000 4125 1000 4425
 Wire Wire Line
 	1100 1350 1200 1350
 Wire Wire Line
@@ -1042,8 +1029,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 3075 1900 3200
 Wire Wire Line
-	1100 3550 1900 3550
-Wire Wire Line
 	2175 3625 2175 3575
 Wire Wire Line
 	2175 3575 1900 3575
@@ -1051,10 +1036,6 @@ Wire Wire Line
 	1900 3575 1900 3700
 Wire Wire Line
 	1900 4050 1675 4050
-Wire Wire Line
-	1675 4050 1675 3650
-Wire Wire Line
-	1675 3650 1100 3650
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5BF7A267
@@ -1111,4 +1092,68 @@ F 3 "~" H 850 1210 50  0001 C CNN
 	1    800  1250
 	1    0    0    -1  
 $EndComp
+$Comp
+L audiojack3_ground_switch_Para_a_placa:AudioJack3_Ground_Switch J1
+U 1 1 5BFA7D4B
+P 750 3700
+F 0 "J1" H 518 3579 50  0000 R CNN
+F 1 "AudioJack3_Ground_Switch" H 518 3670 50  0000 R CNN
+F 2 "Bibliotecas:Jack_3.5mm_Numero" H 750 3700 50  0001 C CNN
+F 3 "~" H 750 3700 50  0001 C CNN
+	1    750  3700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R13
+U 1 1 5BFB4604
+P 1000 4025
+F 0 "R13" H 933 3979 50  0000 R CNN
+F 1 "10k" H 933 4070 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1000 4025 50  0001 C CNN
+F 3 "~" H 1000 4025 50  0001 C CNN
+	1    1000 4025
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R14
+U 1 1 5BFB48BA
+P 1225 4025
+F 0 "R14" H 1158 3979 50  0000 R CNN
+F 1 "10k" H 1158 4070 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1225 4025 50  0001 C CNN
+F 3 "~" H 1225 4025 50  0001 C CNN
+	1    1225 4025
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDS #PWR0126
+U 1 1 5BFBCD36
+P 1225 4425
+F 0 "#PWR0126" H 1225 4175 50  0001 C CNN
+F 1 "GNDS" H 1230 4252 50  0000 C CNN
+F 2 "" H 1225 4425 50  0001 C CNN
+F 3 "" H 1225 4425 50  0001 C CNN
+	1    1225 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1225 4425 1225 4125
+Wire Wire Line
+	950  3700 1675 3700
+Wire Wire Line
+	1675 3700 1675 4050
+Wire Wire Line
+	950  3600 1000 3600
+Wire Wire Line
+	1000 3600 1000 3925
+Wire Wire Line
+	950  3500 1700 3500
+Wire Wire Line
+	1700 3500 1700 3550
+Wire Wire Line
+	1700 3550 1900 3550
+Wire Wire Line
+	950  3400 1225 3400
+Wire Wire Line
+	1225 3400 1225 3925
 $EndSCHEMATC
